@@ -6,7 +6,7 @@
         $wp_customize->add_setting('gr_text_1',
         ['default' => 'We provide managerial and operational consulting services to healthcare facilities of all sizes.']);
         $wp_customize->add_setting('gr_icon_1',
-        ['default' => 'far fa-hospital']);
+        ['default' => 'bi bi-building']);
         $wp_customize->add_setting('gr_p_link_1',
         ['default' => '']);
         $wp_customize->add_setting('gr_h3_link_1',
@@ -20,7 +20,7 @@
         influencing your environment.']
         );
         $wp_customize->add_setting('gr_icon_2',
-        ['default' => 'fas fa-chess-queen']);
+        ['default' => 'bi bi-shield-plus']);
         $wp_customize->add_setting('gr_p_link_2',
         ['default' => '']);
         $wp_customize->add_setting('gr_h3_link_2',
@@ -34,7 +34,7 @@
         you prepare for your success with range of planning services.']
         );
         $wp_customize->add_setting('gr_icon_3',
-        ['default' => 'fas fa-ruler-combined']);
+        ['default' => 'bi bi-layout-wtf']);
         $wp_customize->add_setting('gr_p_link_3',
         ['default' => '']);
         $wp_customize->add_setting('gr_h3_link_3',
@@ -46,7 +46,7 @@
         ['default' => 'Our approach is comprehensive and thorough, providing you with specific implementable strategies to
         help you achieve success.']);
         $wp_customize->add_setting('gr_icon_4',
-        ['default' => 'fab fa-buromobelexperte']);
+        ['default' => 'bi bi-hexagon-half']);
         $wp_customize->add_setting('gr_p_link_4',
         ['default' => '']);
         $wp_customize->add_setting('gr_h3_link_4',
@@ -60,7 +60,7 @@
         turning around even the most troubled of hospitals.']
         );
         $wp_customize->add_setting('gr_icon_5',
-        ['default' => 'fas fa-circle-notch']);
+        ['default' => 'bi bi-exclude']);
         $wp_customize->add_setting('gr_p_link_5',
         ['default' => '']);
         $wp_customize->add_setting('gr_h3_link_5',
@@ -74,7 +74,7 @@
         the context of your capital capacities or financial targets.']
         );
         $wp_customize->add_setting('gr_icon_6',
-        ['default' => 'fas fa-search-dollar']);
+        ['default' => 'bi bi-diamond-half']);
         $wp_customize->add_setting('gr_p_link_6',
         ['default' => '']);
         $wp_customize->add_setting('gr_h3_link_6',
@@ -88,7 +88,7 @@
         social scientists and statistical experts for resourcing research teams for various projects.']
         );
         $wp_customize->add_setting('gr_icon_7',
-        ['default' => 'fas fa-book-medical']);
+        ['default' => 'bi bi-shield-fill-plus']);
         $wp_customize->add_setting('gr_p_link_7',
         ['default' => '']);
         $wp_customize->add_setting('gr_h3_link_7',

@@ -23,7 +23,7 @@
             <div class="block-5 mb-5">
               <h3 class="footer-heading mb-4">Contact Info</h3>
               <ul class="list-unstyled">
-                <li class="address">203 Fake St. Nairobi, Kenya</li>
+                <li class="address">Viewpark Towers,  Nairobi, Kenya</li>
                 <li class="phone"><a href="tel://+254 721 714498">+254 721 714498</a></li>
                 <li class="email"><a href="#">info@greywinghealthcare.com</a></li>
               </ul>
