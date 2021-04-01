@@ -8,9 +8,11 @@ function gr_enqueue()
     //Register the stylesheet
     wp_register_style('gr_style_header', $uri . '/style.css', [], $ver);
     wp_register_style('gr_icomoon', $uri . '/assets/fonts/icomoon/style.css', [], $ver);
+    
     wp_register_style('gr_bootstrap', $uri . '/assets/css/bootstrap.min.css', [], $ver);
-    wp_register_style('gr_flaticon', $uri . '/assets/fonts/flaticon/font/flaticon.css', [], $ver);
-    wp_register_style('gr_font_awesome', $uri . '/assets/fonts/fontawesome-free-5.15.3-web/css/all.css', [], $ver);
+    wp_register_style('gr_bootstrap_icons', $uri . '/assets/fonts/bootstrap-icons@1.4.1/font/bootstrap-icons.css', [], $ver);
+    
+
     wp_register_style('gr_mg_pop', $uri . '/assets/css/magnific-popup.css', [], $ver);
     wp_register_style('gr_jq_ui', $uri . '/assets/css/jquery-ui.css', [], $ver);
     wp_register_style('gr_owl_c', $uri . '/assets/css/owl.carousel.min.css', [], $ver);
@@ -24,8 +26,8 @@ function gr_enqueue()
     wp_enqueue_style('gr_style_header');
     wp_enqueue_style('gr_icomoon');
     wp_enqueue_style('gr_bootstrap');
-    wp_enqueue_style('gr_flaticon');
-    wp_enqueue_style('gr_font_awesome');
+    wp_enqueue_style('gr_bootstrap_icons');
+
     wp_enqueue_style('gr_mg_pop');
     wp_enqueue_style('gr_jq_ui');
     wp_enqueue_style('gr_owl_c');
