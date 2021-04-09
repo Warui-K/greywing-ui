@@ -1,50 +1,77 @@
-<?php function gr_testimonials_customize_section($wp_customize){
+<?php function gr_testimonials_customize_section($wp_customize)
+{
     //Settings
 
 
-    $wp_customize->add_setting('gr_testimonial_1_img',
-    ['default' => '']);
-    $wp_customize->add_setting('gr_testimonial_1_text',
-    ['default' => 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis voluptatem
+    $wp_customize->add_setting(
+        'gr_testimonial_1_img',
+        ['default' => '']
+    );
+    $wp_customize->add_setting(
+        'gr_testimonial_1_text',
+        ['default' => 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis voluptatem
     consectetur quam tempore obcaecati maiores voluptate aspernatur iusto eveniet, placeat ab quod
-    tenetur ducimus. Minus ratione sit quaerat unde.']);
-    $wp_customize->add_setting('gr_testimonial_1_author',
-    ['default' => 'Author 1']);
+    tenetur ducimus. Minus ratione sit quaerat unde.']
+    );
+    $wp_customize->add_setting(
+        'gr_testimonial_1_author',
+        ['default' => 'Author 1']
+    );
 
-    $wp_customize->add_setting('gr_testimonial_2_img',
-    ['default' => '']);
-    $wp_customize->add_setting('gr_testimonial_2_text',
-    ['default' => 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis voluptatem
+    $wp_customize->add_setting(
+        'gr_testimonial_2_img',
+        ['default' => '']
+    );
+    $wp_customize->add_setting(
+        'gr_testimonial_2_text',
+        ['default' => 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis voluptatem
     consectetur quam tempore obcaecati maiores voluptate aspernatur iusto eveniet, placeat ab quod
-    tenetur ducimus. Minus ratione sit quaerat unde.']);
-    $wp_customize->add_setting('gr_testimonial_2_author',
-    ['default' => 'Author 2']);
+    tenetur ducimus. Minus ratione sit quaerat unde.']
+    );
+    $wp_customize->add_setting(
+        'gr_testimonial_2_author',
+        ['default' => 'Author 2']
+    );
 
-    $wp_customize->add_setting('gr_testimonial_3_img',
-    ['default' => '']);
-    $wp_customize->add_setting('gr_testimonial_3_text',
-    ['default' => 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis voluptatem
+    $wp_customize->add_setting(
+        'gr_testimonial_3_img',
+        ['default' => '']
+    );
+    $wp_customize->add_setting(
+        'gr_testimonial_3_text',
+        ['default' => 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis voluptatem
     consectetur quam tempore obcaecati maiores voluptate aspernatur iusto eveniet, placeat ab quod
-    tenetur ducimus. Minus ratione sit quaerat unde.']);
-    $wp_customize->add_setting('gr_testimonial_3_author',
-    ['default' => 'Author 3']);
+    tenetur ducimus. Minus ratione sit quaerat unde.']
+    );
+    $wp_customize->add_setting(
+        'gr_testimonial_3_author',
+        ['default' => 'Author 3']
+    );
 
-    $wp_customize->add_setting('gr_testimonial_4_img',
-    ['default' => '']);
-    $wp_customize->add_setting('gr_testimonial_4_text',
-    ['default' => 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis voluptatem
+    $wp_customize->add_setting(
+        'gr_testimonial_4_img',
+        ['default' => '']
+    );
+    $wp_customize->add_setting(
+        'gr_testimonial_4_text',
+        ['default' => 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis voluptatem
     consectetur quam tempore obcaecati maiores voluptate aspernatur iusto eveniet, placeat ab quod
-    tenetur ducimus. Minus ratione sit quaerat unde.']);
-    $wp_customize->add_setting('gr_testimonial_4_author',
-    ['default' => 'Author 4']);
+    tenetur ducimus. Minus ratione sit quaerat unde.']
+    );
+    $wp_customize->add_setting(
+        'gr_testimonial_4_author',
+        ['default' => 'Author 4']
+    );
 
     //Section
-    $wp_customize->add_section('gr_testimonials',
-    [
+    $wp_customize->add_section(
+        'gr_testimonials',
+        [
         'title' => __('Testimonials Home Section', 'greywingwp'),
         'priority' => 280,
         'panel' => 'greywingwp'
-    ]);
+    ]
+    );
 
     //Testimonial 1 img control
     $wp_customize->add_control(
@@ -58,7 +85,7 @@
 
             )
         )
-            );
+    );
     //Testimonial 1 text control
     $wp_customize->add_control(
         new WP_Customize_Control(
@@ -74,7 +101,7 @@
                 )
             )
         )
-                );
+    );
     //Testimonial 1 author control
     $wp_customize->add_control(
         new WP_Customize_Control(
@@ -90,11 +117,11 @@
                 )
             )
         )
-                );
+    );
 
-        //Testimonial 2 img control
-        $wp_customize->add_control(
-            new WP_Customize_Image_Control(
+    //Testimonial 2 img control
+    $wp_customize->add_control(
+        new WP_Customize_Image_Control(
                 $wp_customize,
                 'gr_testimonial_2_img_input',
                 array(
@@ -104,10 +131,10 @@
     
                 )
             )
-                );
-        //Testimonial 2 text control
-        $wp_customize->add_control(
-            new WP_Customize_Control(
+    );
+    //Testimonial 2 text control
+    $wp_customize->add_control(
+        new WP_Customize_Control(
                 $wp_customize,
                 'gr_testimonial_2_text_input',
                 array(
@@ -120,10 +147,10 @@
                     )
                 )
             )
-                    );
-        //Testimonial 2 author control
-        $wp_customize->add_control(
-            new WP_Customize_Control(
+    );
+    //Testimonial 2 author control
+    $wp_customize->add_control(
+        new WP_Customize_Control(
                 $wp_customize,
                 'gr_testimonial_2_author_input',
                 array(
@@ -136,9 +163,9 @@
                     )
                 )
             )
-                    );
+    );
 
-                        //Testimonial 3 img control
+    //Testimonial 3 img control
     $wp_customize->add_control(
         new WP_Customize_Image_Control(
             $wp_customize,
@@ -150,7 +177,7 @@
 
             )
         )
-            );
+    );
     //Testimonial 3 text control
     $wp_customize->add_control(
         new WP_Customize_Control(
@@ -166,7 +193,7 @@
                 )
             )
         )
-                );
+    );
     //Testimonial 3 author control
     $wp_customize->add_control(
         new WP_Customize_Control(
@@ -182,9 +209,9 @@
                 )
             )
         )
-                );
+    );
 
-                    //Testimonial 4 img control
+    //Testimonial 4 img control
     $wp_customize->add_control(
         new WP_Customize_Image_Control(
             $wp_customize,
@@ -196,7 +223,7 @@
 
             )
         )
-            );
+    );
     //Testimonial 4 text control
     $wp_customize->add_control(
         new WP_Customize_Control(
@@ -212,7 +239,7 @@
                 )
             )
         )
-                );
+    );
     //Testimonial 4 author control
     $wp_customize->add_control(
         new WP_Customize_Control(
@@ -228,6 +255,5 @@
                 )
             )
         )
-                );
-    
+    );
 }

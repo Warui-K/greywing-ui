@@ -35,7 +35,7 @@ $description = get_the_archive_description();
             </div>
 
         </div>
-        <div class="row" data-masonry='{"percentPosition": true }'>
+        <div class="row">
 
             <?php while (have_posts()): ?>
 
