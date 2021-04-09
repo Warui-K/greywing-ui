@@ -39,22 +39,24 @@ function gr_enqueue()
     //Register the script files
     wp_register_script('gr_jq_js', $uri . '/assets/js/jquery-3.3.1.min.js', [], $ver, true);
     wp_register_script('gr_aos_js', $uri . '/assets/js/aos.js', [], $ver, true);
-    wp_register_script('gr_bootstrap_js', $uri . '/assets/js/bootstrap.min.js', [], $ver, true);
     wp_register_script('gr_jq_ui_js', $uri . '/assets/js/jquery-ui.js', [], $ver, true);
     wp_register_script('gr_jq_mg_pop_js', $uri . '/assets/js/jquery.magnific-popup.min.js', [], $ver, true);
+    wp_register_script('gr_bootstrap_js', $uri . '/assets/js/bootstrap.min.js', [], $ver, true);
     wp_register_script('gr_main_js', $uri . '/assets/js/main.js', [], $ver, true);
     wp_register_script('gr_owl_c_js', $uri . '/assets/js/owl.carousel.min.js', [], $ver, true);
     wp_register_script('gr_popper_js', $uri . '/assets/js/popper.min.js', [], $ver, true);
+    wp_register_script('gr_masonry_js', $uri . '/assets/js/masonry.pkgd.min.js', [], $ver, true);
+
 
 
     //Enqueue the script files
     wp_enqueue_script('gr_jq_js');
     wp_enqueue_script('gr_aos_js');
-    wp_enqueue_script('gr_bootstrap_js');
     wp_enqueue_script('gr_jq_ui_js');
     wp_enqueue_script('gr_jq_mg_pop_js');
+    wp_enqueue_script('gr_bootstrap_js');
     wp_enqueue_script('gr_main_js');
     wp_enqueue_script('gr_owl_c_js');
     wp_enqueue_script('gr_popper_js');
-
+    wp_enqueue_script('gr_masonry_js');
 }
