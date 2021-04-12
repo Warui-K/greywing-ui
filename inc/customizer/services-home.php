@@ -4,20 +4,19 @@
         
     $wp_customize->add_setting(
         'gr_h3_text_1',
-        ['default' => 'Hospital planning, design, construction and development services']
+        ['default' => 'Healthcare Management Consultancy Services']
     );
     $wp_customize->add_setting(
         'gr_text_1',
-        ['default' => 'We provide managerial and operational consulting services to healthcare facilities of all sizes.']
+        ['default' => 'We will bring a panel of experienced professionals who have extensive experience in driving strategies for hospital
+        turnarounds, training &amp; orientation, skill development and overall capacity building of the
+        hospital for internal branding and brand visibility.']
     );
     $wp_customize->add_setting(
         'gr_icon_1',
-        ['default' => 'bi bi-building']
+        ['default' => 'bi bi-layout-wtf']
     );
-    $wp_customize->add_setting(
-        'gr_p_link_1',
-        ['default' => '']
-    );
+
     $wp_customize->add_setting(
         'gr_h3_link_1',
         ['default' => '']
@@ -25,21 +24,17 @@
         
     $wp_customize->add_setting(
         'gr_h3_text_2',
-        ['default' => 'Healthcare or Hospital strategy and policy development']
+        ['default' => 'Hospital Development Services']
     );
     $wp_customize->add_setting(
         'gr_text_2',
-        ['default' => 'Healthcare strategic planning can create a direction for your practice and maximize your options for
-            influencing your environment.']
+        ['default' => 'Greywing is a leader in the field of hospital planning, design, and development. Our goal is to deliver a “one-stop shop” approach in hospital planning, development and management by incorporating the latest changes in healthcare.']
     );
     $wp_customize->add_setting(
         'gr_icon_2',
-        ['default' => 'bi bi-shield-plus']
+        ['default' => 'bi bi-building']
     );
-    $wp_customize->add_setting(
-        'gr_p_link_2',
-        ['default' => '']
-    );
+
     $wp_customize->add_setting(
         'gr_h3_link_2',
         ['default' => '']
@@ -56,12 +51,9 @@
     );
     $wp_customize->add_setting(
         'gr_icon_3',
-        ['default' => 'bi bi-layout-wtf']
+        ['default' => 'bi bi-building']
     );
-    $wp_customize->add_setting(
-        'gr_p_link_3',
-        ['default' => '']
-    );
+
     $wp_customize->add_setting(
         'gr_h3_link_3',
         ['default' => '']
@@ -80,10 +72,7 @@
         'gr_icon_4',
         ['default' => 'bi bi-hexagon-half']
     );
-    $wp_customize->add_setting(
-        'gr_p_link_4',
-        ['default' => '']
-    );
+ 
     $wp_customize->add_setting(
         'gr_h3_link_4',
         ['default' => '']
@@ -102,10 +91,7 @@
         'gr_icon_5',
         ['default' => 'bi bi-exclude']
     );
-    $wp_customize->add_setting(
-        'gr_p_link_5',
-        ['default' => '']
-    );
+
     $wp_customize->add_setting(
         'gr_h3_link_5',
         ['default' => '']
@@ -124,10 +110,7 @@
         'gr_icon_6',
         ['default' => 'bi bi-diamond-half']
     );
-    $wp_customize->add_setting(
-        'gr_p_link_6',
-        ['default' => '']
-    );
+
     $wp_customize->add_setting(
         'gr_h3_link_6',
         ['default' => '']
@@ -146,10 +129,7 @@
         'gr_icon_7',
         ['default' => 'bi bi-shield-fill-plus']
     );
-    $wp_customize->add_setting(
-        'gr_p_link_7',
-        ['default' => '']
-    );
+
     $wp_customize->add_setting(
         'gr_h3_link_7',
         ['default' => '']
@@ -175,9 +155,9 @@
     //H3 Text 1 Control
     $wp_customize->add_control(
         new WP_Customize_Control(
-                $wp_customize,
-                'gr_h3_text_1_input',
-                array(
+            $wp_customize,
+            'gr_h3_text_1_input',
+            array(
             'label'    => __('H3 Text 1', 'greywingwp'),
             'section'  => 'gr_services_home',
             'settings' => 'gr_h3_text_1',
@@ -187,14 +167,14 @@
             )
             
             )
-            )
+        )
     );
     //Text 1 Control
     $wp_customize->add_control(
         new WP_Customize_Control(
-                $wp_customize,
-                'gr_text_1_input',
-                array(
+            $wp_customize,
+            'gr_text_1_input',
+            array(
             'label'    => __('Text 1', 'greywingwp'),
             'section'  => 'gr_services_home',
             'settings' => 'gr_text_1',
@@ -204,15 +184,15 @@
             )
             
         )
-            )
+        )
     );
         
     //Icon 1 Control
     $wp_customize->add_control(
         new WP_Customize_Control(
-                $wp_customize,
-                'gr_icon_1_input',
-                array(
+            $wp_customize,
+            'gr_icon_1_input',
+            array(
             'label'    => __('Icon 1 ', 'greywingwp'),
             'section'  => 'gr_services_home',
             'settings' => 'gr_icon_1',
@@ -222,32 +202,16 @@
             )
             
         )
-            )
+        )
     );
         
-    //P Link 1 URL Control
-    $wp_customize->add_control(
-        new Wp_Customize_Control(
-                $wp_customize,
-                'gr_p_link_1_input',
-                array(
-            'label'    => __('P Link 1 URL', 'greywingwp'),
-            'section'  => 'gr_services_home',
-            'settings' => 'gr_p_link_1',
-            'type' => 'text',
-            'input_attrs' => array(
-                'placeholder' => __('Insert URL...', 'greywingwp'),
-            )
-            
-            )
-            )
-    );
+
     //H3 Link 1 URL Control
     $wp_customize->add_control(
         new Wp_Customize_Control(
-                $wp_customize,
-                'gr_h3_link_1_input',
-                array(
+            $wp_customize,
+            'gr_h3_link_1_input',
+            array(
             'label'    => __('H3 Link 1 URL', 'greywingwp'),
             'section'  => 'gr_services_home',
             'settings' => 'gr_h3_link_1',
@@ -257,15 +221,15 @@
             )
             
             )
-            )
+        )
     );
         
     //H3 Text 2 Control
     $wp_customize->add_control(
         new WP_Customize_Control(
-                $wp_customize,
-                'gr_h3_text_2_input',
-                array(
+            $wp_customize,
+            'gr_h3_text_2_input',
+            array(
             'label'    => __('H3 Text 2', 'greywingwp'),
             'section'  => 'gr_services_home',
             'settings' => 'gr_h3_text_2',
@@ -275,14 +239,14 @@
             )
             
             )
-            )
+        )
     );
     //Text 2 Control
     $wp_customize->add_control(
         new WP_Customize_Control(
-                $wp_customize,
-                'gr_text_2_input',
-                array(
+            $wp_customize,
+            'gr_text_2_input',
+            array(
             'label'    => __('Text 2', 'greywingwp'),
             'section'  => 'gr_services_home',
             'settings' => 'gr_text_2',
@@ -292,15 +256,15 @@
             )
             
         )
-            )
+        )
     );
         
     //Icon 2 Control
     $wp_customize->add_control(
         new WP_Customize_Control(
-                $wp_customize,
-                'gr_icon_2_input',
-                array(
+            $wp_customize,
+            'gr_icon_2_input',
+            array(
             'label'    => __('Icon 2 ', 'greywingwp'),
             'section'  => 'gr_services_home',
             'settings' => 'gr_icon_2',
@@ -310,32 +274,16 @@
             )
             
         )
-            )
+        )
     );
         
-    //P Link 2 URL Control
-    $wp_customize->add_control(
-        new Wp_Customize_Control(
-                $wp_customize,
-                'gr_p_link_2_input',
-                array(
-            'label'    => __('P Link 2 URL', 'greywingwp'),
-            'section'  => 'gr_services_home',
-            'settings' => 'gr_p_link_2',
-            'type' => 'text',
-            'input_attrs' => array(
-                'placeholder' => __('Insert URL...', 'greywingwp'),
-            )
-            
-            )
-            )
-    );
+
     //H3 Link 2 URL Control
     $wp_customize->add_control(
         new Wp_Customize_Control(
-                $wp_customize,
-                'gr_h3_link_2_input',
-                array(
+            $wp_customize,
+            'gr_h3_link_2_input',
+            array(
             'label'    => __('H3 Link 2 URL', 'greywingwp'),
             'section'  => 'gr_services_home',
             'settings' => 'gr_h3_link_2',
@@ -345,15 +293,15 @@
             )
             
             )
-            )
+        )
     );
         
     //H3 Text 3 Control
     $wp_customize->add_control(
         new WP_Customize_Control(
-                $wp_customize,
-                'gr_h3_text_3_input',
-                array(
+            $wp_customize,
+            'gr_h3_text_3_input',
+            array(
             'label'    => __('H3 Text 3', 'greywingwp'),
             'section'  => 'gr_services_home',
             'settings' => 'gr_h3_text_3',
@@ -363,14 +311,14 @@
             )
             
             )
-            )
+        )
     );
     //Text 3 Control
     $wp_customize->add_control(
         new WP_Customize_Control(
-                $wp_customize,
-                'gr_text_3_input',
-                array(
+            $wp_customize,
+            'gr_text_3_input',
+            array(
             'label'    => __('Text 3', 'greywingwp'),
             'section'  => 'gr_services_home',
             'settings' => 'gr_text_3',
@@ -380,15 +328,15 @@
             )
             
         )
-            )
+        )
     );
         
     //Icon 3 Control
     $wp_customize->add_control(
         new WP_Customize_Control(
-                $wp_customize,
-                'gr_icon_3_input',
-                array(
+            $wp_customize,
+            'gr_icon_3_input',
+            array(
             'label'    => __('Icon 3 ', 'greywingwp'),
             'section'  => 'gr_services_home',
             'settings' => 'gr_icon_3',
@@ -398,32 +346,16 @@
             )
             
         )
-            )
+        )
     );
         
-    //P Link 3 URL Control
-    $wp_customize->add_control(
-        new Wp_Customize_Control(
-                $wp_customize,
-                'gr_p_link_3_input',
-                array(
-            'label'    => __('P Link 3 URL', 'greywingwp'),
-            'section'  => 'gr_services_home',
-            'settings' => 'gr_p_link_3',
-            'type' => 'text',
-            'input_attrs' => array(
-                'placeholder' => __('Insert URL...', 'greywingwp'),
-            )
-            
-            )
-            )
-    );
+
     //H3 Link 3 URL Control
     $wp_customize->add_control(
         new Wp_Customize_Control(
-                $wp_customize,
-                'gr_h3_link_3_input',
-                array(
+            $wp_customize,
+            'gr_h3_link_3_input',
+            array(
             'label'    => __('H3 Link 3 URL', 'greywingwp'),
             'section'  => 'gr_services_home',
             'settings' => 'gr_h3_link_3',
@@ -433,15 +365,15 @@
             )
             
             )
-            )
+        )
     );
         
     //H3 Text 4 Control
     $wp_customize->add_control(
         new WP_Customize_Control(
-                $wp_customize,
-                'gr_h3_text_4_input',
-                array(
+            $wp_customize,
+            'gr_h3_text_4_input',
+            array(
             'label'    => __('H3 Text 4', 'greywingwp'),
             'section'  => 'gr_services_home',
             'settings' => 'gr_h3_text_4',
@@ -451,14 +383,14 @@
             )
             
             )
-            )
+        )
     );
     //Text 4 Control
     $wp_customize->add_control(
         new WP_Customize_Control(
-                $wp_customize,
-                'gr_text_4_input',
-                array(
+            $wp_customize,
+            'gr_text_4_input',
+            array(
             'label'    => __('Text 4', 'greywingwp'),
             'section'  => 'gr_services_home',
             'settings' => 'gr_text_4',
@@ -468,15 +400,15 @@
             )
             
         )
-            )
+        )
     );
         
     //Icon 4 Control
     $wp_customize->add_control(
         new WP_Customize_Control(
-                $wp_customize,
-                'gr_icon_4_input',
-                array(
+            $wp_customize,
+            'gr_icon_4_input',
+            array(
             'label'    => __('Icon 4 ', 'greywingwp'),
             'section'  => 'gr_services_home',
             'settings' => 'gr_icon_4',
@@ -486,33 +418,16 @@
             )
             
         )
-            )
+        )
     );
-        
-    //P Link 4 URL Control
-    $wp_customize->add_control(
-        new Wp_Customize_Control(
-                $wp_customize,
-                'gr_p_link_4_input',
-                array(
-            'label'    => __('P Link 4 URL', 'greywingwp'),
-            'section'  => 'gr_services_home',
-            'settings' => 'gr_p_link_4',
-            'type' => 'text',
-            'input_attrs' => array(
-                'placeholder' => __('Insert URL...', 'greywingwp'),
-            )
-            
-            )
-            )
-    );
+
         
     //H3 Link 4 URL Control
     $wp_customize->add_control(
         new Wp_Customize_Control(
-                    $wp_customize,
-                    'gr_h3_link_4_input',
-                    array(
+            $wp_customize,
+            'gr_h3_link_4_input',
+            array(
                 'label'    => __('H3 Link 4 URL', 'greywingwp'),
                 'section'  => 'gr_services_home',
                 'settings' => 'gr_h3_link_4',
@@ -522,14 +437,14 @@
                 )
                 
                 )
-                )
+        )
     );
     //H3 Text 5 Control
     $wp_customize->add_control(
         new WP_Customize_Control(
-                $wp_customize,
-                'gr_h3_text_5_input',
-                array(
+            $wp_customize,
+            'gr_h3_text_5_input',
+            array(
             'label'    => __('H3 Text 5', 'greywingwp'),
             'section'  => 'gr_services_home',
             'settings' => 'gr_h3_text_5',
@@ -539,14 +454,14 @@
             )
             
             )
-            )
+        )
     );
     //Text 5 Control
     $wp_customize->add_control(
         new WP_Customize_Control(
-                $wp_customize,
-                'gr_text_5_input',
-                array(
+            $wp_customize,
+            'gr_text_5_input',
+            array(
             'label'    => __('Text 5', 'greywingwp'),
             'section'  => 'gr_services_home',
             'settings' => 'gr_text_5',
@@ -556,15 +471,15 @@
             )
             
         )
-            )
+        )
     );
         
     //Icon 5 Control
     $wp_customize->add_control(
         new WP_Customize_Control(
-                $wp_customize,
-                'gr_icon_5_input',
-                array(
+            $wp_customize,
+            'gr_icon_5_input',
+            array(
             'label'    => __('Icon 5 ', 'greywingwp'),
             'section'  => 'gr_services_home',
             'settings' => 'gr_icon_5',
@@ -574,33 +489,17 @@
             )
             
         )
-            )
+        )
     );
         
-    //P Link 5 URL Control
-    $wp_customize->add_control(
-        new Wp_Customize_Control(
-                $wp_customize,
-                'gr_p_link_5_input',
-                array(
-            'label'    => __('P Link 5 URL', 'greywingwp'),
-            'section'  => 'gr_services_home',
-            'settings' => 'gr_p_link_5',
-            'type' => 'text',
-            'input_attrs' => array(
-                'placeholder' => __('Insert URL...', 'greywingwp'),
-            )
-            
-            )
-            )
-    );
+
         
     //H3 Link 5 URL Control
     $wp_customize->add_control(
         new Wp_Customize_Control(
-                $wp_customize,
-                'gr_h3_link_5_input',
-                array(
+            $wp_customize,
+            'gr_h3_link_5_input',
+            array(
             'label'    => __('H3 Link 5 URL', 'greywingwp'),
             'section'  => 'gr_services_home',
             'settings' => 'gr_h3_link_5',
@@ -610,15 +509,15 @@
             )
             
             )
-            )
+        )
     );
         
     //H3 Text 6 Control
     $wp_customize->add_control(
         new WP_Customize_Control(
-                $wp_customize,
-                'gr_h3_text_6_input',
-                array(
+            $wp_customize,
+            'gr_h3_text_6_input',
+            array(
             'label'    => __('H3 Text 6', 'greywingwp'),
             'section'  => 'gr_services_home',
             'settings' => 'gr_h3_text_6',
@@ -628,14 +527,14 @@
             )
             
             )
-            )
+        )
     );
     //Text 6 Control
     $wp_customize->add_control(
         new WP_Customize_Control(
-                $wp_customize,
-                'gr_text_6_input',
-                array(
+            $wp_customize,
+            'gr_text_6_input',
+            array(
             'label'    => __('Text 6', 'greywingwp'),
             'section'  => 'gr_services_home',
             'settings' => 'gr_text_6',
@@ -645,15 +544,15 @@
             )
             
         )
-            )
+        )
     );
         
     //Icon 6 Control
     $wp_customize->add_control(
         new WP_Customize_Control(
-                $wp_customize,
-                'gr_icon_6_input',
-                array(
+            $wp_customize,
+            'gr_icon_6_input',
+            array(
             'label'    => __('Icon 6 ', 'greywingwp'),
             'section'  => 'gr_services_home',
             'settings' => 'gr_icon_6',
@@ -663,33 +562,16 @@
             )
             
         )
-            )
+        )
     );
-        
-    //P Link 6 URL Control
-    $wp_customize->add_control(
-        new Wp_Customize_Control(
-                $wp_customize,
-                'gr_p_link_6_input',
-                array(
-            'label'    => __('P Link 6 URL', 'greywingwp'),
-            'section'  => 'gr_services_home',
-            'settings' => 'gr_p_link_6',
-            'type' => 'text',
-            'input_attrs' => array(
-                'placeholder' => __('Insert URL...', 'greywingwp'),
-            )
-            
-            )
-            )
-    );
+
         
     //H3 Link 6 URL Control
     $wp_customize->add_control(
         new Wp_Customize_Control(
-                $wp_customize,
-                'gr_h3_link_6_input',
-                array(
+            $wp_customize,
+            'gr_h3_link_6_input',
+            array(
             'label'    => __('H3 Link 6 URL', 'greywingwp'),
             'section'  => 'gr_services_home',
             'settings' => 'gr_h3_link_6',
@@ -699,15 +581,15 @@
             )
             
             )
-            )
+        )
     );
     
     //H3 Text 7 Control
     $wp_customize->add_control(
         new WP_Customize_Control(
-                $wp_customize,
-                'gr_h3_text_7_input',
-                array(
+            $wp_customize,
+            'gr_h3_text_7_input',
+            array(
             'label'    => __('H3 Text 7', 'greywingwp'),
             'section'  => 'gr_services_home',
             'settings' => 'gr_h3_text_7',
@@ -717,14 +599,14 @@
             )
             
             )
-            )
+        )
     );
     //Text 7 Control
     $wp_customize->add_control(
         new WP_Customize_Control(
-                $wp_customize,
-                'gr_text_7_input',
-                array(
+            $wp_customize,
+            'gr_text_7_input',
+            array(
             'label'    => __('Text 7', 'greywingwp'),
             'section'  => 'gr_services_home',
             'settings' => 'gr_text_7',
@@ -734,15 +616,15 @@
             )
             
         )
-            )
+        )
     );
         
     //Icon 7 Control
     $wp_customize->add_control(
         new WP_Customize_Control(
-                $wp_customize,
-                'gr_icon_7_input',
-                array(
+            $wp_customize,
+            'gr_icon_7_input',
+            array(
             'label'    => __('Icon 7 ', 'greywingwp'),
             'section'  => 'gr_services_home',
             'settings' => 'gr_icon_7',
@@ -752,33 +634,16 @@
             )
             
         )
-            )
+        )
     );
-        
-    //P Link 7 URL Control
-    $wp_customize->add_control(
-        new Wp_Customize_Control(
-                $wp_customize,
-                'gr_p_link_7_input',
-                array(
-            'label'    => __('P Link 7 URL', 'greywingwp'),
-            'section'  => 'gr_services_home',
-            'settings' => 'gr_p_link_7',
-            'type' => 'text',
-            'input_attrs' => array(
-                'placeholder' => __('Insert URL...', 'greywingwp'),
-            )
-            
-            )
-            )
-    );
+
         
     //H3 Link 7 URL Control
     $wp_customize->add_control(
         new Wp_Customize_Control(
-                $wp_customize,
-                'gr_h3_link_7_input',
-                array(
+            $wp_customize,
+            'gr_h3_link_7_input',
+            array(
             'label'    => __('H3 Link 7 URL', 'greywingwp'),
             'section'  => 'gr_services_home',
             'settings' => 'gr_h3_link_7',
@@ -788,6 +653,6 @@
             )
             
             )
-            )
+        )
     );
 }
