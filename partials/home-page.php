@@ -8,7 +8,7 @@
                         <h1 class="mb-0"><?php echo get_theme_mod('gr_slider_h_1');?></h1>
                         <div class="row justify-content-center mb-5">
                             <div class="col-lg-6 text-center">
-                                <p><?php echo get_theme_mod('gr_slider_t_1');?></p>
+                                <p><?php echo get_theme_mod('gr_slider_t_1');?></p> 
                             </div>
                         </div>
                         <p><a href="<?php echo get_theme_mod('gr_slider_l_1');?>"
@@ -325,15 +325,15 @@
                     <h2 class="mb-5">Why <strong class="text-info">Us</strong></h2>
                     <div class="step-number d-flex mb-4">
                         <span>1</span>
-                        <p><?php echo get_theme_mod('gr_text_1');?></p>
+                        <p><?php echo get_theme_mod('gr_whyus_1');?></p>
                     </div>
                     <div class="step-number d-flex mb-4">
                         <span>2</span>
-                        <p><?php echo get_theme_mod('gr_text_2');?></p>
+                        <p><?php echo get_theme_mod('gr_whyus_2');?></p>
                     </div>
                     <div class="step-number d-flex mb-4">
                         <span>3</span>
-                        <p><?php echo get_theme_mod('gr_text_3');?></p>
+                        <p><?php echo get_theme_mod('gr_whyus_3');?></p>
                     </div>
                 </div>
             </div>
