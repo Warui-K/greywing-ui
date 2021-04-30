@@ -2,6 +2,7 @@
 /**Template Name:  Contact Us Page*/
 ?>
 <?php get_header();?>
+<hr/>
 
 <div class="bg-light py-3">
     <div class="container">

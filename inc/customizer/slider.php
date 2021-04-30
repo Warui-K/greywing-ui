@@ -8,7 +8,7 @@
     );
     $wp_customize->add_setting(
         'gr_slider_h_1',
-        ['default' => 'Healthcare Consultancy']
+        ['default' => 'Healthcare Management Consultancy Services']
     );
     $wp_customize->add_setting(
         'gr_slider_t_1',

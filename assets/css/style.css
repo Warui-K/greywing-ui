@@ -778,9 +778,9 @@ a:hover {
 }
 
 .site-blocks-cover h1 {
-    font-size    : 40px;
-    font-weight  : 900;
-    color        : #fff;
+    font-size    : 20px;
+    font-weight  : 600;
+    color        : #cdd4e2;
     margin-bottom: 30px
 }
 
@@ -1675,7 +1675,7 @@ a:hover {
     left      : 0;
     right     : 0;
     bottom    : 0;
-    background: rgba(0, 76, 95, 0.596);
+    background: rgba(1, 11, 14, 0.596);
     z-index   : 1
 }
 
