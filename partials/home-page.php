@@ -49,8 +49,7 @@
                                 <p><?php echo get_theme_mod('gr_slider_t_3');?></p>
                             </div>
                         </div>
-                        <p><a href="<?php echo get_theme_mod('gr_slider_l_3');?>" class="btn btn-primary px-5 py-3">Shop
-                                Now</a></p>
+                        <p><a href="<?php echo get_theme_mod('gr_slider_l_3');?>" class="btn btn-primary px-5 py-3">Learn More</a></p>
                     </div>
                 </div>
             </div>
@@ -119,56 +118,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-6 col-lg-4 mb-5">
-                <div class="feature">
-                    <span class="wrap-icon"><i class="<?php echo get_theme_mod('gr_icon_4');?>"></i></span>
-                    <h3><a
-                            href="<?php echo get_theme_mod('gr_h3_link_4');?>"><?php echo get_theme_mod('gr_h3_text_4');?></a>
-                    </h3>
-                    <p><?php echo get_theme_mod('gr_text_4');?></p>
-                    <p><a href="<?php echo get_theme_mod('gr_h3_link_4');?>" class="d-flex align-items-center"><span
-                                class="mr-2">Learn more</span> <span class="icon-keyboard_arrow_right"></span></a></p>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-5">
-                <div class="feature">
-                    <span class="wrap-icon"><i class="<?php echo get_theme_mod('gr_icon_5');?>"></i></span>
-                    <h3><a
-                            href="<?php echo get_theme_mod('gr_h3_link_5');?>"><?php echo get_theme_mod('gr_h3_text_5');?></a>
-                    </h3>
-                    <p><?php echo get_theme_mod('gr_text_5');?></p>
-                    <p><a href="<?php echo get_theme_mod('gr_h3_link_5');?>" class="d-flex align-items-center"><span
-                                class="mr-2">Learn more</span> <span class="icon-keyboard_arrow_right"></span></a></p>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-5">
-                <div class="feature">
-                    <span class="wrap-icon"><i class="<?php echo get_theme_mod('gr_icon_6');?>"></i></span>
-                    <h3><a
-                            href="<?php echo get_theme_mod('gr_h3_link_6');?>"><?php echo get_theme_mod('gr_h3_text_6');?></a>
-                    </h3>
-                    <p><?php echo get_theme_mod('gr_text_6');?></p>
-                    <p><a href="<?php echo get_theme_mod('gr_h3_link_6');?>" class="d-flex align-items-center"><span
-                                class="mr-2">Learn more</span> <span class="icon-keyboard_arrow_right"></span></a></p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-lg-4 mb-5">
-                <div class="feature">
-                    <span class="wrap-icon"><i class="<?php echo get_theme_mod('gr_icon_7');?>"></i></span>
-                    <h3><a href="<?php echo get_theme_mod('gr_h3_link_7');?>">
-                            <?php echo get_theme_mod('gr_h3_text_7');?>
-                        </a></h3>
-                    <p>
-                        <?php echo get_theme_mod('gr_text_7');?>
-                    </p>
-                    <p><a href="<?php echo get_theme_mod('gr_h3_link_7');?>" class="d-flex align-items-center"><span
-                                class="mr-2">Learn more</span> <span class="icon-keyboard_arrow_right"></span></a></p>
-                </div>
-            </div>
-        </div>
+    
     </div>
 </div>
 <div class="site-section bg-image overlay"
@@ -206,58 +156,58 @@
         <div class="row">
             <div class="col-sm-6 col-lg-4 text-center item mb-4">
                 <span class="tag">Sale</span>
-                <a href="<?php echo get_theme_mod('gr_shop_slider_link_1');?>"> <img
-                        src="<?php echo get_theme_mod('gr_shop_slider_1');?>" alt="Image"></a>
+                <a href="<?php echo get_theme_mod('gr_shop_image_link_1');?>"> <img
+                        src="<?php echo get_theme_mod('gr_shop_image_1');?>" alt="Image"></a>
                 <h3 class="text-dark"><a
-                        href="<?php echo get_theme_mod('gr_shop_slider_link_1');?>"><?php echo get_theme_mod('gr_shop_slider_h3_1');?></a>
+                        href="<?php echo get_theme_mod('gr_shop_image_link_1');?>"><?php echo get_theme_mod('gr_shop_image_h3_1');?></a>
                 </h3>
-                <p class="price">KES <?php echo get_theme_mod('gr_shop_slider_price_1');?></p>
+                <p class="price">KES <?php echo get_theme_mod('gr_shop_image_price_1');?></p>
             </div>
             <div class="col-sm-6 col-lg-4 text-center item mb-4">
-                <a href="<?php echo get_theme_mod('gr_shop_slider_link_2');?>"> <img
-                        src="<?php echo get_theme_mod('gr_shop_slider_2');?>" alt="Image"></a>
+                <a href="<?php echo get_theme_mod('gr_shop_image_link_2');?>"> <img
+                        src="<?php echo get_theme_mod('gr_shop_image_2');?>" alt="Image"></a>
                 <h3 class="text-dark"><a
-                        href="<?php echo get_theme_mod('gr_shop_slider_link_2');?>"><?php echo get_theme_mod('gr_shop_slider_h3_2');?></a>
+                        href="<?php echo get_theme_mod('gr_shop_image_link_2');?>"><?php echo get_theme_mod('gr_shop_image_h3_2');?></a>
                 </h3>
-                <p class="price">KES <?php echo get_theme_mod('gr_shop_slider_price_2');?></p>
+                <p class="price">KES <?php echo get_theme_mod('gr_shop_image_price_2');?></p>
             </div>
             <div class="col-sm-6 col-lg-4 text-center item mb-4">
-                <a href="<?php echo get_theme_mod('gr_shop_slider_link_3');?>"> <img
-                        src="<?php echo get_theme_mod('gr_shop_slider_3');?>" alt="Image"></a>
+                <a href="<?php echo get_theme_mod('gr_shop_image_link_3');?>"> <img
+                        src="<?php echo get_theme_mod('gr_shop_image_3');?>" alt="Image"></a>
                 <h3 class="text-dark"><a
-                        href="<?php echo get_theme_mod('gr_shop_slider_link_3');?>"><?php echo get_theme_mod('gr_shop_slider_h3_3');?></a>
+                        href="<?php echo get_theme_mod('gr_shop_image_link_3');?>"><?php echo get_theme_mod('gr_shop_image_h3_3');?></a>
                 </h3>
-                <p class="price">KES <?php echo get_theme_mod('gr_shop_slider_price_3');?></p>
+                <p class="price">KES <?php echo get_theme_mod('gr_shop_image_price_3');?></p>
             </div>
             <div class="col-sm-6 col-lg-4 text-center item mb-4">
-                <a href="<?php echo get_theme_mod('gr_shop_slider_link_4');?>"> <img
-                        src="<?php echo get_theme_mod('gr_shop_slider_4');?>" alt="Image"></a>
+                <a href="<?php echo get_theme_mod('gr_shop_image_link_4');?>"> <img
+                        src="<?php echo get_theme_mod('gr_shop_image_4');?>" alt="Image"></a>
                 <h3 class="text-dark"><a
-                        href="<?php echo get_theme_mod('gr_shop_slider_link_4');?>"><?php echo get_theme_mod('gr_shop_slider_h3_4');?></a>
+                        href="<?php echo get_theme_mod('gr_shop_image_link_4');?>"><?php echo get_theme_mod('gr_shop_image_h3_4');?></a>
                 </h3>
-                <p class="price">KES <?php echo get_theme_mod('gr_shop_slider_price_4');?></p>
+                <p class="price">KES <?php echo get_theme_mod('gr_shop_image_price_4');?></p>
             </div>
             <div class="col-sm-6 col-lg-4 text-center item mb-4">
-                <a href="<?php echo get_theme_mod('gr_shop_slider_link_1');?>"> <img
-                        src="<?php echo get_theme_mod('gr_shop_slider_1');?>" alt="Image"></a>
+                <a href="<?php echo get_theme_mod('gr_shop_image_link_1');?>"> <img
+                        src="<?php echo get_theme_mod('gr_shop_image_1');?>" alt="Image"></a>
                 <h3 class="text-dark"><a
-                        href="<?php echo get_theme_mod('gr_shop_slider_link_1');?>"><?php echo get_theme_mod('gr_shop_slider_h3_1');?></a>
+                        href="<?php echo get_theme_mod('gr_shop_image_link_1');?>"><?php echo get_theme_mod('gr_shop_image_h3_1');?></a>
                 </h3>
-                <p class="price">KES <?php echo get_theme_mod('gr_shop_slider_price_4');?></p>
+                <p class="price">KES <?php echo get_theme_mod('gr_shop_image_price_4');?></p>
             </div>
             <div class="col-sm-6 col-lg-4 text-center item mb-4">
                 <span class="tag">Sale</span>
-                <a href="<?php echo get_theme_mod('gr_shop_slider_link_1');?>"> <img
-                        src="<?php echo get_theme_mod('gr_shop_slider_1');?>" alt="Image"></a>
+                <a href="<?php echo get_theme_mod('gr_shop_image_link_1');?>"> <img
+                        src="<?php echo get_theme_mod('gr_shop_image_1');?>" alt="Image"></a>
                 <h3 class="text-dark"><a
-                        href="<?php echo get_theme_mod('gr_shop_slider_link_1');?>"><?php echo get_theme_mod('gr_shop_slider_h3_1');?></a>
+                        href="<?php echo get_theme_mod('gr_shop_image_link_1');?>"><?php echo get_theme_mod('gr_shop_image_h3_1');?></a>
                 </h3>
-                <p class="price">KES <?php echo get_theme_mod('gr_shop_slider_price_4');?></p>
+                <p class="price">KES <?php echo get_theme_mod('gr_shop_image_price_4');?></p>
             </div>
         </div>
         <div class="row mt-5">
             <div class="col-12 text-center">
-                <a href="shop.html" class="btn btn-info px-4 py-3">View All Products</a>
+                <a href="<?php echo get_permalink(woocommerce_get_page_id('shop'));?>" class="btn btn-info px-4 py-3">View All Products</a>
             </div>
         </div>
     </div>

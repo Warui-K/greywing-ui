@@ -4,21 +4,26 @@
  */
 ?>
 
-<section class="hero-wrap hero-wrap-2" style="background-image: url('<?php echo get_the_post_thumbnail_url();?>');"
-    data-stellar-background-ratio="0.5">
-    <div class="overlay"></div>
-    
+    <div class="site-section bg-image overlay"
+    style="background-image: url('<?php echo get_theme_mod('gr_service_bg_about');?>');">
     <div class="container">
-        <div class="row no-gutters slider-text align-items-end">
-            <div class="col-md-9 ftco-animate pb-5">
-                <p class="breadcrumbs mb-2"><span class="mr-2"><a href="index-2.html">Home <i
-                                class="bi bi-arrow-right"></i></a></span> <span><?php the_title();?> <i
-                            class="bi bi-arrow-right"></i></span></p>
+        <div class="row justify-content-center text-center">
+        <h1 class="mb-0"><?php the_title();?></h1>
+
+        </div>
+    </div>
+</div>
+
+<div class="bg-light py-3 px-6">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mb-0">
+                <a href="/">Home</a> <span class="mx-2 mb-0">/</span>
+                <strong class="text-black"><?php the_title();?></strong>
             </div>
         </div>
     </div>
-</section>
-
+</div>
 <div class="b-example-divider"></div>
 
 <div class="site-section latest">

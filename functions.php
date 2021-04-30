@@ -10,7 +10,7 @@ include(get_theme_file_path('./inc/customizer/slider.php'));
 include(get_theme_file_path('./inc/customizer/services-home.php'));
 include(get_theme_file_path('./inc/customizer/services-intro.php'));
 
-include(get_theme_file_path('./inc/customizer/shop-slider.php'));
+include(get_theme_file_path('./inc/customizer/homepage-shop.php'));
 include(get_theme_file_path('./inc/customizer/testimonials-home.php'));
 include(get_theme_file_path('./inc/customizer/whyus-home.php'));
 include(get_theme_file_path('./inc/customizer/about.php'));

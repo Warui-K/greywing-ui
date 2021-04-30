@@ -17,7 +17,7 @@ function gr_customize_register($wp_customize)
     gr_services_home_customize_section($wp_customize);
     gr_services_intro_customize_section($wp_customize);
 
-    gr_shop_slider_customize_section($wp_customize);
+    gr_shop_image_customize_section($wp_customize);
     gr_testimonials_customize_section($wp_customize);
     gr_whyus_customize_section($wp_customize);
     gr_about_page_customize($wp_customize);
