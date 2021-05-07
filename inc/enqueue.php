@@ -19,6 +19,8 @@ function gr_enqueue()
     wp_register_style('gr_owl_t', $uri . '/assets/css/owl.theme.default.min.css', [], $ver);
     wp_register_style('gr_aos', $uri . '/assets/css/aos.css', [], $ver);
     wp_register_style('gr_style', $uri . '/assets/css/style.css', [], $ver);
+    wp_register_style('gr_woo_style', $uri . '/assets/css/woocommerce.css', [], $ver);
+
 
 
 
@@ -34,6 +36,8 @@ function gr_enqueue()
     wp_enqueue_style('gr_owl_t');
     wp_enqueue_style('gr_aos');
     wp_enqueue_style('gr_style');
+    wp_enqueue_style('gr_woo_style');
+
 
 
     //Register the script files

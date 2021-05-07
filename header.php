@@ -57,9 +57,11 @@
                     <div class="icons">
                         <a href="#" class="icons-btn d-inline-block js-search-open"><span
                                 class="bi bi-search"></span></a>
-                        <a href="#" class="icons-btn d-inline-block bag">
+                        <a href="<?php echo wc_get_cart_url() ?>" title="<?php _e( 'View your shopping cart' ); ?>" class="icons-btn d-inline-block bag">
                             <span class="bi bi-cart4"></span>
-                            <span class="number">2</span>
+                            <?php $items_count = WC()->cart->get_cart_contents_count(); 
+                            ?>
+                            <span id="mini-cart-count" class="number"><?php echo $items_count ? $items_count : '&nbsp;'; ?></span>
                         </a>
                         <a href="#" class="site-menu-toggle js-menu-toggle ml-3 d-inline-block d-lg-none"><span
                                 class="bi bi-filter-left"></span></a>
