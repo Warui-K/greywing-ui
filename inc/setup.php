@@ -44,3 +44,10 @@ function gr_class_the_tags($html)
     $html = str_replace('<a', '<a class="font-weight-normal text-gray-500 mr-3 mb-3"', $html);
     return $html;
 }
+/**
+ * Register Custom Navigation Walker
+ */
+function register_navwalker(){
+	require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
+}
+add_action( 'after_setup_theme', 'register_navwalker' );
