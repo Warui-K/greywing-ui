@@ -32,8 +32,8 @@
 
 
                 <nav class="blog-pagination" aria-label="Pagination">
-                    <a class="btn btn-outline-info" href="#">Older</a>
-                    <a class="btn btn-outline-secondary" href="#" tabindex="-1" aria-disabled="true">Newer</a>
+                    <?php previous_post_link();?>
+                   <?php next_post_link(); ?>
                 </nav>
 
             </div>
