@@ -31,4 +31,6 @@
         </div>
       </div>
     </section>
+<?php echo do_shortcode("[newsletter_form]"); ?>
+
 <?php get_footer( );?>

@@ -51,3 +51,15 @@ function register_navwalker(){
 	require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
 }
 add_action( 'after_setup_theme', 'register_navwalker' );
+
+function posts_link_next_class($format){
+    $format = str_replace('href=', 'class="btn btn-outline-info" href=', $format);
+    return $format;
+}
+add_filter('next_post_link', 'posts_link_next_class');
+
+function posts_link_prev_class($format) {
+    $format = str_replace('href=', 'class="btn btn-outline-secondary" href=', $format);
+    return $format;
+}
+add_filter('previous_post_link', 'posts_link_prev_class');
