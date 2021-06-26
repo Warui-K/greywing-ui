@@ -63,3 +63,16 @@ function posts_link_prev_class($format) {
     return $format;
 }
 add_filter('previous_post_link', 'posts_link_prev_class');
+
+function wc_refresh_mini_cart_count($fragments){
+    ob_start();
+    $items_count = WC()->cart->get_cart_contents_count();
+    ?>
+     <span id="mini-cart-count" class="number">
+    <?php echo $items_count ? $items_count : '&nbsp;'; ?>
+    </span>
+    <?php
+        $fragments['#mini-cart-count'] = ob_get_clean();
+    return $fragments;
+}
+add_filter( 'woocommerce_add_to_cart_fragments', 'wc_refresh_mini_cart_count');

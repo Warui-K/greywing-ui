@@ -61,7 +61,10 @@
                             <span class="bi bi-cart4"></span>
                             <?php $items_count = WC()->cart->get_cart_contents_count(); 
                             ?>
-                            <span id="mini-cart-count" class="number"><?php echo $items_count ? $items_count : '&nbsp;'; ?></span>
+                                
+                                <span id="mini-cart-count" class="number">
+                                <?php echo $items_count ? $items_count : '&nbsp;'; ?>
+                                </span>
                         </a>
                         <a href="#" class="site-menu-toggle js-menu-toggle ml-3 d-inline-block d-lg-none"><span
                                 class="bi bi-filter-left"></span></a>
