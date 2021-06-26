@@ -32,8 +32,8 @@
 
 
                 <nav class="blog-pagination" aria-label="Pagination">
-                    <?php previous_post_link();?>
-                   <?php next_post_link(); ?>
+                    <?php previous_post_link('%link');?>
+                   <?php next_post_link('%link'); ?>
                 </nav>
 
             </div>

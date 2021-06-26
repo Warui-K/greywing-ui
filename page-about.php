@@ -148,11 +148,11 @@
         </div>
       </div>
     </div>
-    <div class="site-section bg-image overlay" style="background-image: url('http://greywinghealthcare.com/wp-content/uploads/2021/03/hero_development.jpg');">
+    <div class="site-section bg-image overlay" style="background-image: url('<?php echo get_theme_mod('gr_service_bg_about'); ?>');">
       <div class="container">
         <div class="row justify-content-center text-center">
           <div class="col-lg-7">
-            <p class="mb-0"><a href="<?php echo site_url('index.php/shop'); ?>" class="btn btn-outline-white">Go to Shop</a></p>
+            <p class="mb-0"><a href="https://shop.greywinghealthcare.com/" target="_blank" class="btn btn-outline-white">Go to Shop</a></p>
         </div>
         </div>
       </div>
