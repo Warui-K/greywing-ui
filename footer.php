@@ -10,12 +10,12 @@
                 </div>
             </div>
             <div class="col-lg-3 mx-auto mb-5 mb-lg-0">
-                <h3 class="footer-heading mb-4">Navigation</h3>
+                <h3 class="footer-heading mb-0">Services</h3>
                 <?php
         wp_nav_menu( array(
             'theme_location'    => 'footer_menu',
-            'depth'             => 2,
-            'menu_class'        => 'list-unstyled p-0',
+            'depth'             => 1,
+            'menu_class'        => 'nav flex-column',
             'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
             'walker'            => new WP_Bootstrap_Navwalker(),
         ) );
